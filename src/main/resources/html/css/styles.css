@@ -1,0 +1,143 @@
+.rectangle1 {
+  height: 50px;
+  width: 300px;
+  background-color: DarkBlue;
+}
+
+.rectangle2 {
+  position: absolute;
+  height: 50px;
+  width: 600px;
+  bottom: 8px;
+  left: 400px;
+  background-color: DarkBlue;
+}
+
+body {
+    background-color: GhostWhite;
+}
+
+name {
+    position: absolute;
+    top: 100px;
+    font-size: 40px;
+    color: Blue;
+    font-weight: bold;
+
+}
+
+summary{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: Blue;
+}
+
+line {
+  display: block;
+  border-width: 5px;
+}
+
+summaryContent{
+  position: absolute;
+  top: 140px;
+  left: 400px;
+}
+
+#photo{
+  border-radius: 50%;
+  height:300px;
+  width:300px;
+  position: absolute;
+  top: 200px;
+}
+
+highlights{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: Blue;
+}
+
+highlightsContent{
+    position: absolute;
+    top: 220px;
+    left: 400px;
+}
+
+education{
+     position: absolute;
+     top: 300px;
+     left: 400px;
+     font-size: 20px;
+     font-weight: bold;
+     color: Blue;
+}
+
+educationContent{
+     position: absolute;
+     top: 350px;
+     left: 400px;
+}
+
+certificates{
+     position: absolute;
+     top: 390px;
+     left: 400px;
+     font-size: 20px;
+     font-weight: bold;
+     color: Blue;
+}
+
+certificatesContent{
+     position: absolute;
+     top: 450px;
+     left: 400px;
+}
+
+#button1{
+  position: absolute;
+  left: 100px;
+  top: 600px;
+}
+
+languages{
+     position: absolute;
+     top: 490px;
+     left: 400px;
+     font-size: 20px;
+     font-weight: bold;
+     color: Blue;
+}
+
+languagesContent{
+     position: absolute;
+     top: 530px;
+     left: 400px;
+}
+
+contacts{
+     position: absolute;
+     top: 550px;
+     left: 115px;
+     font-size: 20px;
+     font-weight: bold;
+     color: Blue;
+}
+
+#contactInfo{
+    position: absolute;
+    left: 90px;
+    top: 650px;
+
+}
+
+#button2{
+    position: absolute;
+    left: 90px;
+    top: 1000px;
+}

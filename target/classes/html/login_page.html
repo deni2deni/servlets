@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+
+</head>
+<body>
+
+<style>
+  label {
+    display: inline-block;;
+    width: 100px;
+  }
+</style>
+<form action="" method="post">
+    <div>
+        <label>Username:</label>
+        <input type='text' name="login" autocomplete='username' id='username'/>
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type='password' name="password" autocomplete='new-password' />
+    </div>
+    <input type="submit" value="Log in">
+</form>
+
+<form action="/cv" method="get">
+    <div>
+        <input type="submit" value="Show CV">
+    </div>
+</form>
+
+<form action="/register" method="get">
+    <div>
+        <input type="submit" value="Register">
+    </div>
+</form>
+
+</body>
+</html>
